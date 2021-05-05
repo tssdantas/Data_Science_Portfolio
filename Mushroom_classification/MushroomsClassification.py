@@ -126,7 +126,7 @@ y_pred_ann = mlp.predict(X_test)
 print('Accuracy_score ANN : ', accuracy_score(y_test, y_pred_ann))
 
 #To use Numpy´s concatenate() it is required to transform 1D arrays --> 2D arrays   ( (n) --> (n,1) )  
-print('\nReshaping 1D arrays into 2D for concatenate() function ... \n')
+print('\nReshaping 1D arrays into 2D for concatenate() function ...')
 print('\nDimension of 1D arrays: ', y_test.shape, y_pred_ann.shape, y_pred_d.shape, y_pred_c.shape, y_pred_b.shape, y_pred_a.shape )
 y_test = np.reshape(y_test, [-1,1])
 y_pred_ann = np.reshape(y_pred_ann, [-1,1])
