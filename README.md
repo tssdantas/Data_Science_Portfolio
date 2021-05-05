@@ -4,7 +4,7 @@ This repository contains my porfolio of Data Science code created for academic a
 
 ## Contents
 - ### Machine Learning
-    #[Supervised Learning](https://github.com/tssdantas/Data_Science_Portfolio/tree/main/Mushroom_classification) An algoritm in Python 3.8.5 is presented to solve the classification problem of mushroom data into the classes of "edible" or "poisonous". The mushroom data is was obtained from kaggle.com and it contains 22 features/ independent variables. The classification methods used are: Random Forest Classifier, Support Vector Machines, K-Nearest Neighbors Voting, Multi-Layer Perceptron Neural Networks and Grandient Boosting Classifier. The Python packages used are: Pandas, Numpy and Scikit-learn.
+    -  [Supervised Learning](https://github.com/tssdantas/Data_Science_Portfolio/tree/main/Mushroom_classification) An algoritm in Python 3.8.5 is presented to solve the classification problem of mushroom data into the classes of "edible" or "poisonous". The mushroom data is was obtained from kaggle.com and it contains 22 features/ independent variables. The classification methods used are: Random Forest Classifier, Support Vector Machines, K-Nearest Neighbors Voting, Multi-Layer Perceptron Neural Networks and Grandient Boosting Classifier. The Python packages used are: Pandas, Numpy and Scikit-learn.
 
 
 ## Licensing information for this project.
