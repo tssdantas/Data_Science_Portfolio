@@ -102,12 +102,9 @@ model.add(layers.Dense(512, activation='relu'))
 model.add(Dropout(0.5))
 model.add(layers.Dense(1, activation='sigmoid'))
 
-
 model.summary()
-epochs = 2
+epochs = 12
 model.compile(loss = 'binary_crossentropy', optimizer='RMSprop', metrics=['accuracy'])
-#model.compile(loss = 'categorical_crossentropy', optimizer='adam', metrics=['accuracy']) #worse performance
-
 model.fit(train_dataset, epochs=epochs)
 
 # --- Loading and evaluating validation data
