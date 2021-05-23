@@ -26,4 +26,4 @@ item_similarity = pairwise_distances(similarity_matrix.T, metric='cosine')
 item_similarity_df = pd.DataFrame(item_similarity)
 # Slicing top 3 similar items for item id 3
 recomendation = item_similarity_df.loc[2,:].sort_values(ascending=False)[0:3]
-print ("Similar items for item id 3: \n", recomendation)
+print ("Similar items for item id 3 (.loc[2,:]) : \n", recomendation)
