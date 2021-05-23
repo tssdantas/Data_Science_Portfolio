@@ -22,6 +22,8 @@ for i in range(nr_users):
     #outside loop
 
 item_similarity = pairwise_distances(similarity_matrix.T, metric='cosine')
-
-# Top 3 similar items for item id 3
-print ("Similar items for item id 3: \n", pd.DataFrame(item_similarity).loc[2,pd.DataFrame(item_similarity).loc[2,:] > 0].sort_values(ascending=False)[0:3])
+# Converting ndarray to pandasDF
+item_similarity_df = pd.DataFrame(item_similarity)
+# Slicing top 3 similar items for item id 3
+recomendation = item_similarity_df.loc[2,:].sort_values(ascending=False)[0:3]
+print ("Similar items for item id 3: \n", recomendation)
