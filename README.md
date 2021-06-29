@@ -2,11 +2,12 @@
 
 This repository contains my porfolio of Data Science code created for academic and self-learning purposes.
 The main sources that i used to learn and write these scripts are:
-    - Swamynathan, M. Mastering Machine Learning with Python in Sex Steps. 2nd Edition. APress. 2019
-    - Keras Online Documentation
-    - Tensorflow Online Documentation
-    - Scikit-Learn Online Documentation
-    - Pandas & Numpy Documentation
+- Swamynathan, M. Mastering Machine Learning with Python in Sex Steps. 2nd Edition. APress. 2019
+- Keras Online Documentation
+- Tensorflow Online Documentation
+- Scikit-Learn Online Documentation
+- Pandas & Numpy Documentation
+
 
 ## Contents
 - ### Machine Learning
