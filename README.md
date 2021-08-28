@@ -1,7 +1,7 @@
 ## Data Science Porfolio.
 
 This repository contains my porfolio of Data Science code created for academic and self-learning purposes.
-The main sources that i used in learning are:
+The main sources used are:
 - Swamynathan, M. Mastering Machine Learning with Python in Sex Steps. 2nd Edition. APress. 2019
 - Keras Online Documentation
 - Tensorflow Online Documentation
